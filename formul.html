@@ -1,0 +1,73 @@
+<style>
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#containre{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 300px;
+    height: 420px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-top:30px;
+}
+
+input{
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-style: solid;
+}
+.en{
+   background-color: grey;
+   color: white;
+   cursor: pointer;
+}
+.en:active{
+background-color: burlywood;
+}
+input:focus{
+    border-color: bisque;
+    outline: none;
+}
+.no{
+    margin-left: 13px;
+}
+h2{
+    margin-left: 35%;
+}
+</style>
+</head>
+<body>
+    <div id="containre">
+        <h2>Login</h2>
+        <form>
+            <label class="no" for="nom"><b>Username:</b></label>
+                    <br>
+                    <br>
+                    <input type="text" name="nom" id="nom">
+                    <br>
+                    <br>
+                    <label class="no" for="email"><b>Email:</b></label>
+                    <br>
+                    <br>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <br>
+                    <label class="no" for="pass"><b>Password:</b></label>
+                    <br>
+                    <br>
+                    <input type="password" name="passtxt" id="pass">
+                    <br>
+                    <br>
+                    <input class="en" id="envoyer" type="submit">
+        </form>
+    </div>
+</body>
+</html>

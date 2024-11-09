@@ -1,0 +1,177 @@
+img{
+    width: 100%;
+    height: 550px; 
+  }
+  .COPYRIGHT {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: underline;
+  }
+  
+  div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ilyas{
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  #nono{
+      margin-left: 20%;
+      transition: transform 0.3s ease;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  #nono:hover{
+     transform: scale(1.2);
+    
+  }
+  .pro{
+      margin-right: 20%;
+  }
+  .t-shirt{
+      height: 100px;
+  }
+  .farid{
+    margin-right: 27px;
+  }
+  .farid img{
+      width: 300px;
+      height: 350px;
+      transition: transform 0.3s ease; 
+      background-color: #fbf5ee;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      cursor: pointer;
+      margin: 10px;
+      max-width: 100%;  
+  }
+  table tr td p{
+    margin-right: 55px;
+    padding: 20px;
+    margin-left: 21px;
+    font-family:'Times New Roman', Times, serif
+}
+table tr td p b{
+    margin-left: 65px;
+}
+  table{
+    margin-right: -10px;
+    margin-left: 30px;
+  }
+  table tr{
+    margin-left: 60px;
+  }
+  .naji:hover{
+      transform: scale(1.2);
+  }
+  .soso:hover{
+      transform: scale(1.2);
+  }
+  .nono:hover{
+      transform: scale(1.2);
+  }
+  .momo:hover{
+      transform: scale(1.2);
+  }
+  .ilyas a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #000;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .ilyas a::after{
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      content: "";
+      width: 0%;
+      height: 2px;
+      transition: 0.1s ease-out;
+      background-color: #f7a800;
+  }
+  .ilyas a:hover::after{
+      width: 100%;
+  }
+  .mido{
+      width: 100%;
+      height: 600px;
+  }
+  button{
+      background-color: white;
+      width: 80px;
+      height: 35px;
+      border-radius: 10px;
+      border: 1px solid;
+  }
+  h3{
+      color: #000;
+      text-transform: uppercase;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  footer{
+      color: #fff;
+      margin-top: 20px;
+      padding: 25px 10%;
+      background-color: #000;
+      height: 100%;
+  }
+  footer img{
+      width: 70px;
+      height: 70px;
+      background-color: #000;
+      cursor: pointer;
+  }
+  .fofo{
+      margin-right: 85%;
+  }
+  .teeboutique{
+      margin-left: 95%;
+      font-weight: bold;
+  }
+  .div2 a{
+      display: flex;
+      text-decoration: 0;
+      color: #fbf5ee;
+      flex-direction: column;
+  }
+  .div2{
+      margin-bottom: 30px;
+      margin-right: 80%;
+      margin-left: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .align{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .div4 h3{
+      margin-top: 10px;
+      margin-right: 70%;
+      margin-bottom: -5px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+  }
+  ul a{ 
+      display: flex;
+      text-decoration: 0;
+      color: #fbf5ee;
+      flex-direction: column;
+  }
+  .naji{
+     margin-left: 30px;
+  }
